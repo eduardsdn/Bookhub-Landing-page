@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin:0%;
+}
+
+/* Header section */
+
+.header {
+    background-color: #FFF5EE;
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name {
+    font-size: 45px;
+    font-weight: 600;
+    color: #67215F;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    width: 513px;
+    height: 33px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 200px;
+}
+
+a:hover {
+     color: #67215F
+}
+
+.search-bar-section {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+
+.search-bar-section input {
+    width: 328px;
+    height: 45px;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: #67215F;
+}
+
+.search-bar-section input::placeholder {
+    font-size:  18px;
+    font-weight: 100;
+    text-align: center;
+    color:#000000;
+    background-image: url(assets/material-symbols_search-rounded.svg);
+    background-repeat: no-repeat;
+}
+
+.search-bar-section img {
+    width: 40px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 15px;
+    padding:8px;
+    border-color:#67215F
+}
+
+/* Main section */
+
+.main {
+    width: 100%;
+    background-color: #FFE4C4;
+}
+
+.slogan {
+    margin: 0%;
+}
